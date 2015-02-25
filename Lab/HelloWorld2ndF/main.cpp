@@ -1,10 +1,11 @@
 /* 
  * File:   main.cpp
  * Author: rcc
- *Created on February 25, 2015, 10:39 AM
+ *
+ * Created on February 25, 2015, 10:42 AM
  */
 
-#include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
