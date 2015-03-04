@@ -34,9 +34,9 @@ int main(int argc, char** argv) {
     cout<<"Known/Given values:"<<endl;
     cout<<"Number of customers = "<<nCust<<endl;
     cout<<"Percentage Energy Drinkers = "
-                                <<static_cast<int>(pEDrnks)<<"%"<<endl;
+                                <<static_cast<short>(pEDrnks)<<"%"<<endl;
     cout<<"Percentage Citrus Drinkers/Energy Drinkers = "
-                                 <<static_cast<int>(pCDrnks)<<"%"<<endl;
+                                 <<static_cast<short>(pCDrnks)<<"%"<<endl;
     cout<<"Calculated Values:"<<endl;
     cout<<"Number of Energy Drinkers = "<<nEDrnks<<endl;
     cout<<"Number of Citrus Drinkers = "<<nCDrnks<<endl;
