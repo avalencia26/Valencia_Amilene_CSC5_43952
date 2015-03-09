@@ -17,14 +17,14 @@ using namespace std;
 
 //Execution begins here!!
 int main(int argc, char** argv) {
-    unsigned char sxtyTwo, nntyNne, total;
+    float sxtyTwo, nntyNne, total;
     
     //Input Variables
     sxtyTwo=62;
     nntyNne=99;
     total=sxtyTwo+nntyNne;
     
-    cout<< "The sum of 62 and 99 is:"<<sxtyTwo+nntyNne<<endl;
+    cout<< "The sum of 62 and 99 is "<<total<<endl;
     return 0;
 }
 

@@ -18,7 +18,7 @@ using namespace std;
 //Execution:
 int main(int argc, char** argv) {
     //Declare Variables
-    unsigned short acre, pcofLnd;
+    float acre, pcofLnd;
     //Known Values
     acre=43560;//Square feet
     pcofLnd=389767/acre;
