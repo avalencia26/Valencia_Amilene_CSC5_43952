@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
     //Known Values
     acre=43560;//Square feet
     pcofLnd=389767/acre;
-    
+    //Output:
     cout<<"There are "<<pcofLnd
             <<" acres in a 389,767 square foot tract of land"<<endl;
     return 0;
