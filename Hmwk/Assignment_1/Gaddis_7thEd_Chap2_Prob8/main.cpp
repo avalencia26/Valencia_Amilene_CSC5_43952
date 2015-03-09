@@ -19,7 +19,7 @@ unsigned char CNVPCT=100;
 //Execution:
 int main(int argc, char** argv) {
     //Declare Variables:
-    short itmOne, itmTwo, itmThr, itmFour, itmFve,sbTtl, slsTx, amntTx, total;
+   float itmOne, itmTwo, itmThr, itmFour, itmFve,sbTtl, slsTx, amntTx, total;
     
     //Known Values:
     itmOne=1.295e1;
@@ -36,14 +36,14 @@ int main(int argc, char** argv) {
     
     //Output Variables:
     cout<<"Total Purchase Problem:"<<endl;
-    cout<<"Item One = "<<"$ "<<itmOne<<endl;
-    cout<<"Item Two = "<<"$ "<<itmTwo<<endl;
-    cout<<"Item Three = "<<"$ "<<itmThr<<endl;
-    cout<<"Item Four = "<<"$ "<<itmFour<<endl;
-    cout<<"Item Five = "<<"$ "<<itmFve<<endl;
-    cout<<"Subtotal = "<<"$ "<<sbTtl<<endl;
-    cout<<"Amount of Sales Tax = "<<"$ "<<amntTx<<endl;
-    cout<<"Total amount = "<<"$ "<<total<<endl;
+    cout<<"Item One = "<<"$"<<itmOne<<endl;
+    cout<<"Item Two = "<<"$"<<itmTwo<<endl;
+    cout<<"Item Three = "<<"$"<<itmThr<<endl;
+    cout<<"Item Four = "<<"$"<<itmFour<<endl;
+    cout<<"Item Five = "<<"$"<<itmFve<<endl;
+    cout<<"Subtotal = "<<"$"<<sbTtl<<endl;
+    cout<<"Amount of Sales Tax = "<<"$"<<amntTx<<endl;
+    cout<<"Total amount = "<<"$"<<total<<endl;
     return 0;
 }
 
