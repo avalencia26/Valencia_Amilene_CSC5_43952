@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
     if (hrsWkd<oTime) {
                 payChk=payRate*hrsWkd;
     }
-   if(hrsWkd>=oTime) {     
+    if(hrsWkd>=oTime) {     
                 payChk=payRate*(hrsWkd+(oRate-1)*(hrsWkd-oTime));
    }
     //Output the results to the screen

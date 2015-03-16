@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Amilene Valencia
  * Created on March 16, 2015, 8:11 AM
- * Purpose: PayCheck-->Independent if-statements
+ * Purpose: PayCheck-->One independent if-statement
  */
 
 //System Libraries
