@@ -25,11 +25,11 @@ int main(int argc, char** argv) {
     
     //Input values
     cout<<"This program calculates your total amount in savings on a loan"<<endl;
-    cout<<"What is the interest rate on your loan?"<<endl;
+    cout<<"What is the interest rate(%) on your loan?"<<endl;
     cin>>intRte;
     cout<<"How many times is the interest compounded?"<<endl;
     cin>>tmCmpnd;
-    cout<<"What is the principal amount?"<<endl;
+    cout<<"What is the principal amount? (insert the number only; no commas)"<<endl;
     cin>>princpl;
     
     //Calculate:
