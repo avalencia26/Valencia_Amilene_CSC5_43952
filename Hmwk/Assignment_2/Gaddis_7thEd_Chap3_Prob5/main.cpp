@@ -41,7 +41,7 @@ int main(int argc, char** argv) {
     grssProf=adSold+chSold;//Gross profit
     netProf=grssProf*pctKeep;//Net profit
     p2dist=grssProf-netProf;//Paid to distributor
-    cout<<"Movie Name: "<<mvNme<<endl;
+    cout<<"Movie Name: \""<<mvNme<<"\""<<endl;
     cout<<setw(20)<<"Adult Tickets Sold: "<<nadTkt<<endl;
     cout<<setw(20)<<"Child Tickets Sold: "<<nchTkt<<endl;
     cout<<setw(20)<<"Gross Box Office Profit: $"<<grssProf<<endl;
