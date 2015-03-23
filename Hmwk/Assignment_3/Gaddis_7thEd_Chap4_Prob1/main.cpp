@@ -19,7 +19,7 @@ using namespace std;
 //Execution begins here!
 int main(int argc, char** argv) {
     //Declare Variables
-    bool x, y;
+    unsigned short x, y;
     //Input variables
     cout<<"This program will determine which of the two\n"
             "numbers is the larger and which one is the smaller.\n";
@@ -28,7 +28,14 @@ int main(int argc, char** argv) {
     cout<<"Input the second number: "<<endl;
     cin>>y;
     
-    
+    if (x>y){
+        cout<<x<<"is the larger number."<<endl;
+        cout<<y<<" is the smaller number."<<endl;
+    }
+    else {
+        cout<<y<<" is the larger number "<<endl;
+        cout<<x<< " is the smaller number."<<endl;
+    }
     return 0;
 }
 
