@@ -29,13 +29,16 @@ int main(int argc, char** argv) {
     cin>>y;
     
     if (x>y){
-        cout<<x<<"is the larger number."<<endl;
+        cout<<"_________________________"<<endl;
+        cout<<x<<" is the larger number."<<endl;
         cout<<y<<" is the smaller number."<<endl;
     }
     else {
-        cout<<y<<" is the larger number "<<endl;
-        cout<<x<< " is the smaller number."<<endl;
+        cout<<"_________________________"<<endl;
+        cout<<y<<" is the larger number. "<<endl;
+        cout<<x<<" is the smaller number."<<endl;
     }
-    return 0;
+
+ return 0;
 }
 
