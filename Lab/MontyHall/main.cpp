@@ -28,8 +28,8 @@ int main(int argc, char** argv) {
     unsigned int door, doorOpn, prize,othDoor;
     char stay;
     //Prompt user for inputs
-    cout<<"This is the Monty Hall Game, Let's make a deal"<<endl;
-    cout<<"How many games would you like to play(1->4X10^9)?"<<endl;
+    cout<<"This is the Monty Hall Game, \"Let's make a deal\""<<endl;
+    cout<<"How many games would you like to play(1->4x10^9)?"<<endl;
     cin>>nGames;
     cout<<"Are you going to stay if given the opportunity? Type S for Stay"<<endl;
     cout<<"or type C for change"<<endl;
@@ -50,13 +50,13 @@ int main(int argc, char** argv) {
              othDoor=rand()%3+1;
          }while(othDoor==doorOpn||othDoor==door);//Can't be the same
          // Check all the doors: 
-         //     cout<<"D="<<door<<" OthD="<<othDoor<<" OpnD="<<doorOpn<<" Prize="<<prize<<endl;
+         //   cout<<"D="<<door<<" OthD="<<othDoor<<" OpnD="<<doorOpn<<" Prize="<<prize<<endl;
          //Swap the doors if given the opportunity 
          if(stay!='S'&&stay!='s'){//Use DeMorgan's laws to test validity
              //What is the other door, meaning the door not chosen
                 door=othDoor;
          }
-         //Not statistically count how many wins and losses
+         //Now statistically count how many wins and losses
          if(door==prize)win++;
          else loss++;
     }
@@ -66,9 +66,8 @@ int main(int argc, char** argv) {
     if(stay=='S'||stay=='s')cout<<"I am not changing my door and "<<endl;
     else cout<<"I am changing my door and "<<endl;
     cout<<"I win ->"<<win<<" times-> "<<100.0f*win/nGames<<"%"<<endl;
-    cout<<"vs losing "<<loss<< " times!"<<100.0f*loss/nGames<<endl;
+    cout<<"vs losing "<<loss<< " times!"<<100.0f*loss/nGames<<"%"<<endl;
     //Exit stage right!
     
     return 0;
 }
-
